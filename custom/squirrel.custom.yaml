@@ -27,8 +27,8 @@ patch:
     # color_scheme_dark: purity_of_form_custom
     #color_scheme: macos_light
     #color_scheme_dark: macos_dark
-    color_scheme: catppuccin_mocha
-    color_scheme_dark: catppuccin_mocha
+    color_scheme: catppuccin_macchiato
+    color_scheme_dark: catppuccin_macchiato
 
     inline_preedit: true   # 非內嵌編碼行
     font_face: "PingFangSC"                    # 候选词字体
