@@ -27,25 +27,26 @@ patch:
     # color_scheme_dark: purity_of_form_custom
     #color_scheme: macos_light
     #color_scheme_dark: macos_dark
-    color_scheme: catppuccin_latte
+    color_scheme: catppuccin_mocha
     color_scheme_dark: catppuccin_mocha
 
-    # 预设选项：（可被皮肤覆盖；如果皮肤没写，则默认使用这些属性。）
-    text_orientation: horizontal  # horizontal | vertical
-    inline_preedit: true
-    corner_radius: 10
-    hilited_corner_radius: 0
-    border_height: 0
-    border_width: 0
-    line_spacing: 5
-    spacing: 10
+    inline_preedit: true   # 非內嵌編碼行
+    font_face: "PingFangSC"                    # 候选词字体
+    horizontal: true        # 候選窗横向顯示
+    font_point: 24          # 字號
+    label_font_point: 18                       # 候选编号大小
+    corner_radius: 6       # 窗口圓角半徑
+    border_height: 8        # 窗口邊界高度，大於圓角半徑才有效果
+    border_width: 8         # 窗口邊界寬度，大於圓角半徑才有效果
+
+  # 註：預設的配色方案及代碼（指定爲 style/color_scheme 系統默認色系 - native）
+
     candidate_format: "%c %@ "                 # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
-    #base_offset: 6
-    font_face: "PingFangSC"
-    font_point: 16
-    label_font_point: 13
-    # comment_font_point: 18
-    
+    # corner_radius: 5                           # 窗口圆角
+    hilited_corner_radius: 5                   # 高亮圆角
+    line_spacing: 10                           # 行间距(适用于竖排)
+    # border_height: 4                           # 窗口上下高度，大于圆角半径才生效
+    # border_width: 4                            # 窗口左右宽度，大于圆角半径才生效
 
   # 皮肤列表
   preset_color_schemes:
