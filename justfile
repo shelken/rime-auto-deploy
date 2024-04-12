@@ -7,4 +7,4 @@ rime-test: rime-clean
 # 清理
 [macos]
 rime-clean:
-  rm -rf "$HOME/Library/Rime/*.custom.yaml"
+  rm -rf $HOME/Library/Rime/*.custom.yaml
