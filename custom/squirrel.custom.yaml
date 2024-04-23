@@ -14,6 +14,9 @@ patch:
     com.apple.Terminal:
       ascii_mode: true
       no_inline: true
+    com.github.wez.wezterm:
+      ascii_mode: true
+      no_inline: true
     com.jetbrains.intellij:
       ascii_mode: true
     company.thebrowser.Browser:
