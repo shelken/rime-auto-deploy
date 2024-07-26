@@ -1,4 +1,4 @@
 patch:
   # 去除中文旁的拼音提示
   # https://github.com/iDvel/rime-ice/issues/431#issuecomment-1667398028
-  translator/spelling_hints: 0
+  # translator/spelling_hints: 0
