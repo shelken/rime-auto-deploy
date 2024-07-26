@@ -26,34 +26,6 @@ patch:
       ascii_mode: false
       #no_inline: true
 
-
-  # style:
-  #   # 选择皮肤，亮色与暗色主题
-  #   #color_scheme: macos_light
-  #   #color_scheme_dark: macos_dark
-  #   color_scheme: catppuccin_macchiato
-  #   color_scheme_dark: catppuccin_macchiato
-  #
-  #   inline_preedit: true   # 非內嵌編碼行
-  #   inline_candidate: false
-  #   font_face: "PingFangSC"                    # 候选词字体
-  #   #horizontal: true        # 候選窗横向顯示(废弃) 用 candidate_list_layout
-  #   font_point: 24          # 字號
-  #   label_font_point: 18                       # 候选编号大小
-  #   corner_radius: 6       # 窗口圓角半徑
-  #   border_height: 8        # 窗口邊界高度，大於圓角半徑才有效果
-  #   border_width: 8         # 窗口邊界寬度，大於圓角半徑才有效果
-  #   #stacked | linear | tabled 候选项排列方向(如果希望水平，设置linear)
-  #   candidate_list_layout: linear  # stacked | linear | tabled
-  #
-  # # 註：預設的配色方案及代碼（指定爲 style/color_scheme 系統默認色系 - native）
-  #
-  #   candidate_format: "%c %@ "                 # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
-  #   # corner_radius: 5                           # 窗口圆角
-  #   hilited_corner_radius: 5                   # 高亮圆角
-  #   line_spacing: 10                           # 行间距(适用于竖排)
-  #   # border_height: 4                           # 窗口上下高度，大于圆角半径才生效
-  #   # border_width: 4                            # 窗口左右宽度，大于圆角半径才生效
   style:
     # 选择皮肤，亮色与暗色主题
     color_scheme: catppuccin_macchiato
@@ -64,7 +36,7 @@ patch:
     # 自 0.36(Squirrel 0.15) 起已弃用。覆写为横向，建议使用 candidate_list_layout
     # horizontal: true
     # # stacked | linear | tabled 候选项排列方向(如果希望水平，设置linear)
-    candidate_list_layout: linear  # stacked | linear | tabled
+    candidate_list_layout: stacked # stacked | linear | tabled
     
     text_orientation: horizontal  # horizontal | vertical
     # 内嵌预编辑
