@@ -25,6 +25,8 @@ patch:
     company.thebrowser.Browser:
       ascii_mode: false
       #no_inline: true
+    com.kangfenmao.CherryStudio:
+      ascii_mode: false
 
   style:
     # 选择皮肤，亮色与暗色主题
