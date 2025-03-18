@@ -2,3 +2,6 @@ patch:
   # 去除中文旁的拼音提示
   # https://github.com/iDvel/rime-ice/issues/431#issuecomment-1667398028
   # translator/spelling_hints: 0
+  
+  # 预编辑文本直接显示原始输入，而不是处理后的,我希望在输入英文时看到完整的英文
+  translator/preedit_format: []
