@@ -1,6 +1,7 @@
 patch:
   # ascii_mode、inline、no_inline、vim_mode 等等设定，可参考 /Library/Input Methods/Squirrel.app/Contents/SharedSupport/squirrel.yaml
   # ascii_mode = true 切为英文；ascii_mode = false 切为中文; no_inline 表示不在输入行内显示正在输入的字母
+  switches/@0/reset: 1 # 将ascii_mode重设英文
   app_options:
     com.apple.finder:
       ascii_mode: true  
